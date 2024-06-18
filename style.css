@@ -89,7 +89,44 @@ nav {
   width: 450px;
 }
 
+.info {
+  height: 450px;
+}
+
+.info-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.boxes {
+  display: flex;
+  gap: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+
 .box-img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
+  border: 3px solid rgb(0, 132, 255);
+  border-radius: 8px;
+}
+
+.box-text {
+  text-align: center;
 }
