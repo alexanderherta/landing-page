@@ -130,3 +130,30 @@ nav {
 .box-text {
   text-align: center;
 }
+
+.quote {
+  background-color: #E5E7EB;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quoted-by {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 20px;
+}
